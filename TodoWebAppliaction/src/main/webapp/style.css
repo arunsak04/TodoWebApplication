@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+a{
+	text-decoration: none;
+	color: white;
+}
+button{
+	background-color: rgb(114, 216, 114);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+button:hover{
+	background-color: blue;
+    color: #fff;
+}
+.username{
+	position: absolute;
+	font-size: 35px;
+	top: 50px;
+	right: 20px;
+	color: blue;
+}
+.message{
+    background-color: lightcoral; 
+    color:red; position: relative; 
+    top: 240px; 
+    left: 650px; 
+}
+.message1{
+     
+    color:darkgreen; position: relative; 
+    top: 240px; 
+    left: 650px; 
+}
+
+*{
+	margin: 0%;
+	padding: 0%;
+	
+	}
+.main{
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(246, 241, 241);
+	
+}
+.copy
+{
+	height: 50px;
+	width: 100%;
+	background-color: rgb(86, 117, 173);
+	position: absolute;
+	bottom: 0;
+}
+.copy p{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding-top:10px ;
+}
+.nav{
+	height: 50px;
+	width: 100%;
+	background-color: rgb(86, 117, 173);
+	position: absolute;
+	top: 0;
+}
+.nav ul{
+	
+	display: flex;
+	padding-top:10px ;
+	padding-left: 800px;
+}
+.nav ul li{
+	padding-left: 50px;
+	color: white;
+	font-weight: 300;
+	font-size: 20px;
+	
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.nav span a{
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+    position: absolute;
+    /* top: -25px; */
+    left: 110px;
+    text-decoration: none;
+}
+.nav span img{
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+    position: absolute;
+    top: -10px;
+    left: -60px;
+}
+.formh{
+	 height: 250px;
+    width: 600px;
+    background-color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.formh button{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 255px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+/* --------------login------------------------ */
+.form{
+	border-radius: 5px;
+    height: 400px;
+    width: 460px;
+    background-color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.form a{
+    padding-left: 25px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.form input{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 380px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+.form input:hover{
+    border: 1px blue solid;
+    box-shadow: 2px 2px 4px rgba(4, 29, 251, 0.332);
+    font-size: 20px;
+}
+
+#submit{
+    background-color: rgb(114, 216, 114);
+    color: #fff;
+}
+#submit:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+/* --------- ---------------------registration--------------------------------------------- */
+.form1{
+    height: 520px;
+    width: 325px;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 600px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+.form1 span{
+    padding-left: 25px;
+}
+.input{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 255px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding-left: 20px;
+}
+.inputGen{
+    border: none;
+    /* border-radius: 5px; */
+    height: 20px;
+    width: 20px;
+    /* margin-left: 100px; */
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+.input1{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+    margin-left: 23px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+.input:hover{
+    border: 1px blue solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 255px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgba(4, 29, 251, 0.332);
+    font-size: 20px;
+}
+
+/* ----------------------------------todo---------------------------------------------------- */
+.form2{
+    height: 450px;
+    width: 315px;
+    background-color: #fff;
+    position: absolute;
+    
+    top: 100px;
+    left: 600px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+.form2 form label{
+    position: relative;
+   top: 10px;
+    margin-top: 10px;
+    /* color: red; */
+    margin-left: 20px;
+
+
+    
+}
+.input11{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 255px;
+    margin-left: 20px;
+    position: relative;
+   top: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.input12{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 190px;
+    margin-left: 23px;
+    position: relative;
+   top: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.input11:hover{
+    border: 1px blue solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 255px;
+    margin-left: 20px;
+    position: relative;
+   top: 25px;
+   margin-bottom: 25px;
+    box-shadow: 2px 2px 4px rgba(4, 29, 251, 0.332);
+    font-size: 20px;
+}
+
+/* <!-----------------------------display----------------------------------> */
+
+.table{
+	
+    width: 70%;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 15%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+.table table tr th{
+	height: 30px;
+	width: 300px;
+}
+.table table tr td{
+	height: 30px;
+	width: 300px;
+	text-align: center;
+}
+.f1{
+	
+	border-radius: 5px;
+	background-color: rgb(114, 216, 114);
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    right: 80px;
+
+}
+.f2{
+	
+	border-radius: 5px;
+	background-color: rgb(114, 216, 114);
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    bottom: 14px;
+    left: 50px;
+}
+/*<!-- ---------------forgot------------------------ -->*/
+.formf{
+    height: 300px;
+    width: 515px;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+/*----------------------responsive----------------------------------*/
+/* Default styles for all screen sizes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(246, 241, 241);
+}
+
+/* Header */
+.nav {
+    background-color: deeppink;
+   	position: absolute;
+	top: 0;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: right;
+    padding: 10px 0;
+}
+
+.nav ul li {
+    padding: 0 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main Content */
+.main {
+    min-height: 100vh;
+    background-color: rgb(246, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+.form,
+.form1,
+.form2,
+.formf {
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .nav ul {
+        padding-left: 0;
+        justify-content: right;
+    }
+    .nav ul li {
+        padding: 0 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav ul li {
+        padding: 10px 0;
+    }
+
+    .form,
+    .form1,
+    .form2,
+    .formf {
+        width: 90%;
+        height: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+    }
+}
